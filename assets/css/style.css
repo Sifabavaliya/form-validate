@@ -43,3 +43,9 @@ input[type="submit"] {
 #Display-info {
   text-align: justify;
 }
+
+tr {
+  background: cadetblue;
+  color: white;
+  font-family: fangsong;
+}

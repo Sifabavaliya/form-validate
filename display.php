@@ -55,14 +55,14 @@
         <th>Favriout Food:</th>
         <td id="fev_food"><?php 
         $fevfood=$_GET['fevfood'];
-        foreach($fevfood as $food)
-        echo "$food," ?></td>
+        foreach($fevfood as $foods)
+        $foods=join(",", $fevfood);
+        echo $foods; ?></td>
       </tr>
       <tr>
         <th>Massage:</th>
         <td id="Massage"><?php echo $_GET['msg']; ?></td>
       </tr>
     </table>
-    <script src="./assets/js/script.js"></script>
 </body>
 </html>
